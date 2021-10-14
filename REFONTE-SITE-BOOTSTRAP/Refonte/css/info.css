@@ -1,0 +1,129 @@
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+a{
+    color: rgb(0, 198, 192);
+    text-decoration: none;
+  }
+  
+  
+  a:hover{
+    color: rgb(0, 165, 159);
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(0, 198, 192);
+  }
+  
+.form-control:focus{
+    border-color: rgb(0, 198, 192);
+outline: 0;
+box-shadow: 0 0 0 0.25rem rgba(0, 198, 192, 0.25);
+}
+
+.form-check-input:checked {
+    background-color: rgb(0, 198, 192);
+    border-color: rgb(0, 198, 192);
+}
+
+.form-check-input:focus {
+    border-color: rgb(0, 198, 192);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 198, 192, 0.25);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(0, 165, 159);
+    border-color: rgb(0, 165, 159);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(0, 198, 192);
+    border-color: rgb(0, 198, 192);
+}
+
+#bg-video {
+    position: fixed;
+    left: 60%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-image: url(../img/tm-astro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header.masthead {
+    height: 100vh;
+    background-image: url();
+}
+
+header#masthead-presentation {
+    height: 60vh;
+}
+
+.imgLogo{
+    width: 80px;
+}
+
+.contact_details{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 50px;
+    color: rgb(212,212,212);
+  }
+
+.contact_details ul {
+    list-style: none;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0.7;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+    background-attachment: fixed;
+}
+
+#sanitaire{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 50px;
+    color: rgb(212,212,212);
+}
+
+#sanitaire ul {
+    list-style: none;
+}
+
+#othersPdf{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+
+
+
+/*footer*/
+
+footer {
+    border-top: 1px white solid;
+    color: white;
+  }

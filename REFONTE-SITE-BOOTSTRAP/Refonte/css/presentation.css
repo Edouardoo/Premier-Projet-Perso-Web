@@ -1,0 +1,107 @@
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+a{
+    color: rgb(0, 198, 192);
+    text-decoration: none;
+  }
+  
+a:hover{
+  color: rgb(0, 165, 159);
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(0, 198, 192);
+  }
+
+#bg-video {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-image: url(../img/tm-astro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header.masthead {
+    height: 100vh;
+    background-image: url();
+}
+
+header#masthead-presentation {
+    height: 60vh;
+}
+
+.imgLogo{
+    width: 80px;
+}
+
+.presentation{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 50px;
+    color: rgb(212,212,212);
+  }
+
+.materiel {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 50px;
+    color: rgb(212,212,212);
+}
+
+.Divers {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 50px;
+    color: rgb(212,212,212);
+}
+
+.bg-light {
+    --bs-bg-opacity: 0.5;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+    background-attachment: fixed;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: white !important;
+}
+
+  footer {
+    border-top: 1px white solid;
+    color: white;
+}
+
+ #materiel {
+    padding-bottom: 10px;
+
+}
+
+#divers{
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+
+
